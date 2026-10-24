@@ -1,0 +1,65 @@
+
+/* Main navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+  background-color: #fce4ec;
+  box-shadow: 0 2px 8px rgba(100, 60, 60, 0.08);
+}
+
+/* TeddyShop logo */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #795548;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Navigation links container */
+.items {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+/* Individual navigation links */
+.nav-items {
+  color: #795548;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+/* Navigation hover effect */
+.nav-items:hover {
+  color: #d81b60;
+}
+
+/* Icons container */
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Individual icon links */
+.nav-icons {
+  display: flex;
+  align-items: center;
+  color: #795548;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+/* Icon hover effect */
+.nav-icons:hover {
+  color: #d81b60;
+  transform: translateY(-2px);
+}
