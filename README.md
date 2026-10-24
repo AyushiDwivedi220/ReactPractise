@@ -7,19 +7,21 @@ TeddyShop is a teddy bear e-commerce practice project built with React and TypeS
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![TeddyShop Home Page](public/screenshots/Home.png)
+
+![TeddyShop Home Page](./TeddyBearShopPractise/public/screenshots/Home.png)
 
 ### 🛍️ Shop Page
-![TeddyShop Shop Page](public/screenshots/Shop.png)
 
-### 🛍️ About Page
-![TeddyShop Shop Page](public/screenshots/About.png)
+![TeddyShop Home Page](./TeddyBearShopPractise/public/screenshots/Shop.png)
 
-### 🛍️ Login Page
-![TeddyShop Shop Page](public/screenshots/Login.png)
+### 🔐 Login Page
 
-### 🛍️ Signup Page
-![TeddyShop Shop Page](public/screenshots/Signup.png)
+![TeddyShop Home Page](./TeddyBearShopPractise/public/screenshots/Login.png)
+
+### ✨ Signup Page
+
+![TeddyShop Home Page](./TeddyBearShopPractise/public/screenshots/Signup.png)
+
 ## ✨ Features
 
 - 🧸 Browse teddy bear products
@@ -39,7 +41,7 @@ TeddyShop is a teddy bear e-commerce practice project built with React and TypeS
 | React | User interface |
 | TypeScript | Type safety |
 | Vite | Development environment and build tooling |
-| React Router | Client-side routing |
+| React Router | Client-side navigation |
 | JSON Server | Mock REST API |
 | CSS | Styling |
 
@@ -49,8 +51,11 @@ TeddyShop is a teddy bear e-commerce practice project built with React and TypeS
 teddybearshoppractise/
 ├── public/
 │   └── screenshots/
-│       ├── home.png
-│       └── shop.png
+│       ├── Home.png
+│       ├── Shop.png
+│       ├── About.png
+│       ├── Login.png
+│       └── Signup.png
 ├── src/
 │   ├── api/
 │   │   └── products.ts
@@ -109,7 +114,7 @@ git clone YOUR_GITHUB_REPOSITORY_URL
 cd teddybearshoppractise
 ```
 
-Replace `YOUR_GITHUB_REPOSITORY_URL` with your repository's actual URL.
+Replace `YOUR_GITHUB_REPOSITORY_URL` with your actual repository URL.
 
 ### 2. Install dependencies
 
