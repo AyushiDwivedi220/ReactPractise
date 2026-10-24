@@ -63,3 +63,142 @@
   color: #d81b60;
   transform: translateY(-2px);
 }
+
+
+
+
+.login-page {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff8f5;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+/* Heading */
+.login-page h1 {
+  color: #795548;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Description */
+.login-page > p:first-of-type {
+  color: #8d6e63;
+  font-size: 16px;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+/* Login Form Card */
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  width: 100%;
+  max-width: 380px;
+  padding: 32px;
+
+  background-color: #ffffff;
+  border: 1px solid #f8dce5;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(121, 85, 72, 0.10);
+
+  box-sizing: border-box;
+}
+
+/* Input Fields */
+.login-page input {
+  width: 100%;
+  padding: 13px 15px;
+
+  font-size: 15px;
+  color: #5d4037;
+
+  background-color: #fffafc;
+  border: 1px solid #ead5dc;
+  border-radius: 10px;
+  outline: none;
+
+  box-sizing: border-box;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Input Focus */
+.login-page input:focus {
+  border-color: #e88eae;
+  box-shadow: 0 0 0 3px rgba(232, 142, 174, 0.18);
+}
+
+/* Login Button */
+.login-page button {
+  width: 100%;
+  padding: 14px;
+
+  background-color: #e88eae;
+  color: #ffffff;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+/* Button Hover */
+.login-page button:hover {
+  background-color: #d96f96;
+  transform: translateY(-2px);
+}
+
+/* Button Click */
+.login-page button:active {
+  transform: translateY(0);
+}
+
+/* Sign Up Prompt */
+.login-page > p:last-of-type {
+  margin-top: 24px;
+  margin-bottom: 8px;
+  color: #8d6e63;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Sign Up Link */
+.login-page > a {
+  color: #d96f96;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.login-page > a:hover {
+  color: #ad456d;
+  text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .login-page {
+    padding: 30px 16px;
+  }
+
+  .login-page h1 {
+    font-size: 26px;
+  }
+
+  .login-page form {
+    padding: 24px 20px;
+  }
+}
